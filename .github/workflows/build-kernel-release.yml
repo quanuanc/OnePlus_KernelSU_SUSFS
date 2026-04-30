@@ -33,7 +33,7 @@ on:
         description: 'Optional exact model filter, e.g. OP10pro. Leave empty to build all models matching op_model.'
         required: false
         type: string
-        default: ''
+        default: 'OP10pro'
       ksu_options:
         description: 'Enter KernelSU build json'
         required: true
